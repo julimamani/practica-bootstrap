@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">PySWeb2024</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="page1.html">Page1</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pagea.html">PageA</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pageb.html">PageB </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pagec.html">PageC <span class="sr-only">(current)</span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <section>
+        <div class="container pt-3">
+            <div class="row row-cols-md-3 row-cols-2 gx-4">
+
+                <div class="col">
+                    <div class="card mb-3 p-3">
+                        <div class="d-flex align-items-center row g-0">
+                            <div class="col-md-4">
+                                <img src="./img/aries.jpg" class="img-fluid rounded-circle" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body text-center"> <!-- Centro el contenido verticalmente -->
+                                    <button onclick="mostrarInfo('Aries')" class="btn btn-primary">Aries</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col">
+                    <div class="card mb-3 p-3">
+                    <div class="d-flex align-items-center row g-0">
+                        <div class="col-md-4">
+                            <img src="./img/tauro.jpg" class="img-fluid rounded-circle" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body text-center">
+                                <button onclick="mostrarInfo('Tauro')" class="btn btn-primary">Tauro</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                
+                <div class="col">
+                    <div class="card mb-3 p-3">
+                        <div class="d-flex align-items-center row g-0">
+                            <div class="col-md-4">
+                                <img src="./img/geminis.jpg" class="img-fluid rounded-circle" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body text-center">
+                                    <button onclick="mostrarInfo('Géminis')" class="btn btn-primary">Géminis</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                
+                <div class="col">
+                    <div class="card mb-3 p-3">
+                        <div class="d-flex align-items-center row g-0">
+                            <div class="col-md-4">
+                                <img src="./img/cancer.jpeg" class="img-fluid rounded-circle" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body text-center">
+                                    <button onclick="mostrarInfo('Cáncer')" class="btn btn-primary" >Cáncer</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col">
+                <div class="card mb-3 p-3">
+                    <div class="d-flex align-items-center row g-0">
+                        <div class="col-md-4">
+                            <img src="./img/leo.jpeg" class="img-fluid rounded-circle" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body text-center">
+                                <button onclick="mostrarInfo('Leo')" class="btn btn-primary">Leo</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <div class="col">
+                    <div class="card mb-3 p-3">
+                    <div class="d-flex align-items-center row g-0">
+                        <div class="col-md-4">
+                            <img src="./img/virgo.jpg" class="img-fluid rounded-circle" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body text-center">
+                                <button onclick="mostrarInfo('Virgo')" class="btn btn-primary">Virgo</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                
+                <div class="col">
+                    <div class="card mb-3 p-3">
+                    <div class="d-flex align-items-center row g-0">
+                        <div class="col-md-4">
+                            <img src="./img/libra.jpeg" class="img-fluid rounded-circle" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body text-center">
+                                <button onclick="mostrarInfo('Libra')" class="btn btn-primary">Libra</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                
+                <div class="col">
+                <div class="card mb-3 p-3">
+                    <div class="d-flex align-items-center row g-0">
+                        <div class="col-md-4">
+                            <img src="./img/escorpio.jpeg" class="img-fluid rounded-circle" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body text-center">
+                                <button onclick="mostrarInfo('Escorpio')" class="btn btn-primary">Escorpio</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                
+            <div class="col">
+               <div class="card mb-3 p-3">
+                    <div class="d-flex align-items-center row g-0">
+                        <div class="col-md-4">
+                            <img src="./img/sagitario.jpeg" class="img-fluid rounded-circle" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body text-center">
+                                <button onclick="mostrarInfo('Sagitario')" class="btn btn-primary">Sagitario</button>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+                
+            <div class="col">
+               <div class="card mb-3 p-3">
+                    <div class="d-flex align-items-center row g-0">
+                        <div class="col-md-4">
+                            <img src="./img/capricornio.jpg" class="img-fluid rounded-circle" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body text-center">
+                                <button onclick="mostrarInfo('Capricornio')" class="btn btn-primary">Capricornio</button>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+                
+            <div class="col">
+                <div class="card mb-3 p-3">
+                    <div class="d-flex align-items-center row g-0">
+                      <div class="col-md-4">
+                        <img src="./img/acuario.jpeg" class="img-fluid rounded-circle" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body text-center"> <!-- Centra el contenido verticalmente -->
+                          <button onclick="mostrarInfo('Acuario')" class="btn btn-primary">Acuario</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+                
+            <div class="col">
+               <div class="card mb-3 p-3">
+                    <div class="d-flex align-items-center row g-0">
+                        <div class="col-md-4">
+                            <img src="./img/piscis.jpg" class="img-fluid rounded-circle" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body text-center">
+                                <button onclick="mostrarInfo('Piscis')" class="btn btn-primary">Piscis</button>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>      
+
+
+                
+            </div>
+        </div>
+
+    </section>
+
+
+    <!----------------------------------------------------------------------------------------------------------------->
+    <!--Aries, Tauro, Géminis, Cáncer, Leo, Virgo, Libra, Escorpio, Sagitario, Capricornio, Acuario y Piscis -->
+    <!----------------------------------------------------------------------------------------------------------------->
+    <section>
+        <div class="container">
+            <div class="row col-12  row-cols-2" style="padding-left: 11px; ">
+              
+            <div class="card mb-3" style="min-width: 100%; ">
+                                <div class="d-flex align-items-center row g-0 ">
+
+                                    <div class="col-md-10">
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title" id="titulo-dia"></h5>
+                                            <p class="card-text" id="info-dia"></p>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-2">
+                                        <img id="imagen-signo" src="./img/tao.png" class="img-fluid rounded-circle" alt="..."
+                                            style="max-width: 100%;">
+                                    </div>
+
+                                </div>
+                            </div>
+                
+                
+
+
+                <div class="card mb-3" style="min-width: 100%; ">
+                    <div class="d-flex align-items-center row g-0 p-2">
+
+                        <div class="col-md-10">
+                            <div class="card-body text-center">
+                                <h5 class="card-title" id="titulo-mes"></h5>
+                                <p class="card-text" id="info-mes"></p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-2">
+                            <img id="imagen-signo-mes" src="./img/tao.png" class="img-fluid rounded-circle" alt="..." 
+                            style="max-width: 100%;">
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- scrips -->
+
+    <script>
+        function mostrarInfo(signo) {
+            var nombreSigno = signo.toUpperCase();
+            var infoDia = obtenerInfoDia(signo);
+            var infoMes = obtenerInfoMes(signo);
+            var nuevaRutaImagen = obtenerRutaImagen(signo);
+            var fecha = new Date ();
+            var dia = fecha.getDate();
+            var mes = fecha.getMonth() +1; 
+
+
+            document.getElementById('titulo-dia').innerHTML = nombreSigno + " "+ dia + "/"+mes;
+            document.getElementById('titulo-mes').innerHTML = nombreSigno + " MES "+ mes;
+            document.getElementById('info-dia').innerHTML = infoDia;
+            document.getElementById('info-mes').innerHTML = infoMes;
+            document.getElementById('imagen-signo').src = nuevaRutaImagen;
+            document.getElementById('imagen-signo-mes').src=nuevaRutaImagen;
+        }
+
+
+        function obtenerInfoDia(signo) {
+            switch (signo) {
+                case 'Aries':
+                    return 'Hoy es un buen día para tomar decisiones importantes. La energía de Aries te impulsará a liderar y tomar la iniciativa en tus proyectos.';
+                case 'Tauro':
+                    return 'La influencia de Tauro te llevará a concentrarte en tu trabajo y en la estabilidad financiera. Es un buen momento para consolidar tus metas a largo plazo.';
+                case 'Géminis':
+                    return 'La energía de Géminis te hará sentir más comunicativo y sociable. Aprovecha para establecer nuevas conexiones y explorar nuevas ideas.';
+                case 'Cáncer':
+                    return 'Hoy es un buen día para conectarte con tus emociones y cuidar de tus seres queridos. La sensibilidad de Cáncer te llevará a valorar la intimidad y la seguridad emocional.';
+                case 'Leo':
+                    return 'La influencia de Leo te llevará a brillar y destacarte en tus actividades. Es un buen momento para expresar tu creatividad y liderazgo.';
+                case 'Virgo':
+                    return 'La energía práctica de Virgo te ayudará a organizarte y resolver problemas. Aprovecha para enfocarte en la eficiencia y la productividad.';
+                case 'Libra':
+                    return 'Hoy es un buen día para buscar el equilibrio en tus relaciones y tomar decisiones armoniosas. La influencia de Libra te llevará a valorar la justicia y la belleza.';
+                case 'Escorpio':
+                    return 'La intensidad de Escorpio te llevará a explorar tus deseos más profundos y transformar aspectos de tu vida. Aprovecha para profundizar en tus relaciones y en tu autoconocimiento.';
+                case 'Sagitario':
+                    return 'La energía aventurera de Sagitario te llevará a explorar nuevos horizontes y buscar la verdad. Es un buen momento para expandir tu mente y perseguir tus ideales.';
+                case 'Capricornio':
+                    return 'La influencia de Capricornio te llevará a enfocarte en tus metas a largo plazo y en tu responsabilidad. Aprovecha para trabajar con disciplina y construir una base sólida para el futuro.';
+                case 'Acuario':
+                    return 'Hoy es un buen día para ser original y romper con la rutina. La influencia de Acuario te llevará a valorar la libertad y la innovación.';
+                case 'Piscis':
+                    return 'La sensibilidad de Piscis te llevará a conectar con tu intuición y tu lado más espiritual. Aprovecha para expresar compasión y creatividad en tus acciones.';
+                default:
+                    return 'No se encontró información para este signo.';
+            }
+        }
+
+
+        function obtenerInfoMes(signo) {
+            switch (signo) {
+                case 'Aries':
+                    return 'En el mes de Aries, es importante mantener el enfoque en tus metas y objetivos. Es un momento favorable para tomar decisiones importantes y liderar iniciativas.';
+                case 'Tauro':
+                    return 'Durante el mes de Tauro, es recomendable centrarse en la estabilidad y la seguridad. Aprovecha para trabajar en la consolidación de tus recursos y disfrutar de los placeres simples de la vida.';
+                case 'Géminis':
+                    return 'El mes de Géminis es ideal para la comunicación y el intercambio de ideas. Aprovecha para socializar, aprender cosas nuevas y mantener la mente abierta a diferentes perspectivas.';
+                case 'Cáncer':
+                    return 'Durante el mes de Cáncer, es importante conectar con tus emociones y cuidar de tus relaciones cercanas. Aprovecha para fortalecer los lazos familiares y encontrar seguridad emocional.';
+                case 'Leo':
+                    return 'En el mes de Leo, es momento de brillar y destacarse en tus actividades. Aprovecha para expresar tu creatividad, liderazgo y generosidad con los demás.';
+                case 'Virgo':
+                    return 'El mes de Virgo es propicio para el trabajo práctico y la organización. Aprovecha para enfocarte en la eficiencia, la salud y el bienestar personal.';
+                case 'Libra':
+                    return 'Durante el mes de Libra, es importante buscar el equilibrio y la armonía en tus relaciones. Aprovecha para tomar decisiones justas y cultivar la belleza en tu entorno.';
+                case 'Escorpio':
+                    return 'El mes de Escorpio es propicio para la transformación y el autoconocimiento. Aprovecha para explorar tus deseos más profundos y superar los obstáculos en tu camino.';
+                case 'Sagitario':
+                    return 'Durante el mes de Sagitario, es momento de expandir tus horizontes y buscar nuevas aventuras. Aprovecha para viajar, explorar y aprender de nuevas culturas.';
+                case 'Capricornio':
+                    return 'El mes de Capricornio es ideal para trabajar con disciplina y construir una base sólida para el futuro. Aprovecha para establecer metas realistas y avanzar con determinación.';
+                case 'Acuario':
+                    return 'Durante el mes de Acuario, es importante valorar la libertad y la innovación. Aprovecha para ser original, romper con la rutina y contribuir al bienestar de la comunidad.';
+                case 'Piscis':
+                    return 'El mes de Piscis es propicio para la conexión espiritual y la compasión. Aprovecha para expresar tu creatividad, sensibilidad y empatía hacia los demás.';
+                default:
+                    return 'No se encontró información para este signo.';
+            }
+
+
+
+        }
+        function obtenerRutaImagen(signo) {
+            switch (signo) {
+                case 'Aries':
+                    return './img/aries.jpg';
+                case 'Tauro':
+                    return './img/tauro.jpg';
+                case 'Géminis':
+                    return './img/geminis.jpg';
+                case 'Cancer':
+                    return './img/cancer.jpeg';
+                case 'Leo':
+                    return './img/leo.jpeg';
+                case 'Virgo':
+                    return './img/virgo.jpg';
+                case 'Libra':
+                    return './img/libra.jpeg';
+                case 'Escorpio':
+                    return './img/escorpio.jpeg';
+                case 'Sagitario':
+                    return './img/sagitario.jpeg';
+                case 'Capricornio':
+                    return './img/capricornio.jpg';
+                case 'Acuario':
+                    return './img/acuario.jpeg';
+                case 'Piscis':
+                    return './img/piscis.jpg';
+                default:
+                    return './img/default.png'; // Ruta de la imagen por defecto
+            }
+        }
+
+
+    </script>
+</body>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+</html>
+
+
+<!--
+    <div class="signo row row-cols-2">
+                    <img src="./img/tao.png" alt="Aries"style="width: 100px; height: auto;">
+                    <p>Aries</p>
+                </div>
+                <div class="signo">
+                    <img src="./img/tao.png" alt="Aries"style="width: 100px; height: auto;">
+                    <p>Aries</p>
+                </div>
+                <div class="signo">
+                    <img src="./img/tao.png" alt="Aries"style="width: 100px; height: auto;">
+                    <p>Aries</p>
+                </div>
+-->

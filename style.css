@@ -1,0 +1,18 @@
+
+.imagen{
+    min-height: 20vh; 
+}
+
+.elementos-container .row .col {
+  background-color: purple; /* Color morado */
+ 
+}
+
+
+.footer{
+    background-color: greenyellow;
+}
+
+.card-c{
+  margin: 10px;
+}
